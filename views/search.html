@@ -1,0 +1,69 @@
+
+<body>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>pararius-scraper</h2>
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input id="scrape-url" type="text" class="form-control input-lg" placeholder="Put URL" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button" id="go-search">
+                            <i class="glyphicon glyphicon-search"></i> Scrape
+                        </button>
+                    </span>
+                </div>
+            </div>
+            <div id="results">
+
+                <div id="results-pre">
+<br><i>For example, try: http://www.pararius.nl/woning-verhuren/eindhoven/housingxl-nl/huurwoningen/plaatsnaam-oplopend/page-4, or this http://www.pararius.nl/huurwoningen/amsterdam/800-2000</i>
+                </div>
+         
+                <table id="results-table" class="table table-bordered">
+                  <thead style="background: #000;">
+                    <th class="dynatable-head">title</th>
+                    <th class="dynatable-head">price</th>
+                    <th class="dynatable-head">link</th>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <h3>History</h3>
+            
+            <div id="history-list">
+              
+            </div>
+
+
+              
+
+            <div class="chat-wrapper">
+                
+                <div class="chat-title">
+                     <span class="pull-right glyphicon glyphicon-minus" id="chat-minify"></span>
+                    <h4>Chat <small></small></h4>
+                </div>
+                
+                <div id="chat-list">
+                </div>
+
+                <div class="chat-form">
+                    <textarea id="msg"></textarea>
+                        <br><button id="send-msg" type="button">Send</button>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+
+       
+</body>
+
+</html>
